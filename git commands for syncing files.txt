@@ -1,0 +1,27 @@
+Eventually I want to add this and then add it to the gitignore file so that it is only localized for each machine on how to do things
+
+--------------
+github --> local
+-------------
+This will sync my repository with the github one by pulling everything into my local games folder
+git pull https://github.com/GitResumeCoding/games.git master
+
+-----------------
+local --> github
+----------------
+This will push my local files up to the github repository
+git push orgin master 
+username git resume  /\ coding
+password */\6/\p
+
+
+-----
+this will tell me if the github url link is connected to the folder if it's not then pull it from the wbepage and add it. 
+
+git remote -v
+
+----
+to add the url link
+git remote add orgin [URL LINK from github webpage]
+i.e. for android
+git remote add origin https://github.com/GitResumeCoding/android.git
