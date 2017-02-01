@@ -14,6 +14,8 @@ git push orgin master
 username git resume  /\ coding
 password */\6/\p
 
+better command is:
+git push -u orgin master
 
 -----
 this will tell me if the github url link is connected to the folder if it's not then pull it from the wbepage and add it. 
