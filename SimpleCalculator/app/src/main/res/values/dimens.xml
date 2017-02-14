@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="spaces">80sp</dimen>
+    <dimen name="text">40sp</dimen>
+    <dimen name="operationSign">35sp</dimen>
+    <dimen name="btnMargin">3sp</dimen>
+</resources>

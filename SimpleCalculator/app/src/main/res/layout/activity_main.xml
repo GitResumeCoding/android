@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TableRow
+            android:paddingTop="@dimen/spaces"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <EditText
+                android:gravity="center"
+                android:maxLength="10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:text=""
+                android:hint="@string/hintNumber1"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="@dimen/text"
+                android:id="@+id/edtNumber1"
+                android:layout_column="0"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <EditText
+                android:maxLength="10"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:textSize="@dimen/text"
+                android:hint="@string/hintNumber2"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:id="@+id/edtNumber2"
+                android:layout_column="0"/>
+        </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spaces"
+            android:layout_column="0"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:text="+"
+                style="@style/btnOperationStyle"
+                android:id="@+id/button"
+                android:layout_column="0"
+                android:tag="addition"/>
+
+
+            <Button
+                android:text="-"
+                style="@style/btnOperationStyle"
+                android:layout_column="0"
+                android:tag="subtraction"
+                android:id="@+id/button2" />
+
+
+            <Button
+                android:text="X"
+                style="@style/btnOperationStyle"
+                android:layout_column="0"
+                android:id="@+id/button3"
+                android:tag="multiplication"/>
+
+            <Button
+                android:text="/"
+                style="@style/btnOperationStyle"
+                android:layout_column="0"
+                android:id="@+id/button4"
+                android:tag="division"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+        </TableRow>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:text="%"
+                style="@style/btnOperationStyle"
+                android:layout_column="0"
+                android:id="@+id/button5"
+                android:tag="remainder"/>
+
+            <Button
+                android:text="^"
+                style="@style/btnOperationStyle"
+                android:layout_column="1"
+                android:id="@+id/button6"
+                android:tag="exponent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+
+        </TableRow>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spaces"
+            android:layout_column="0"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <EditText
+            android:maxLength="10"
+            android:layout_gravity="center"
+            android:text="@string/txtResult"
+            android:id="@+id/txtResult"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text"
+
+            android:layout_column="0"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</TableLayout>
