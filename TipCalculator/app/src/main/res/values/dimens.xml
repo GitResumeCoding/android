@@ -1,0 +1,13 @@
+<resources>
+    <!-- default dimens-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- my dimensions added -->
+    <dimen name="margin">5sp</dimen>
+    <dimen name="txtTitle">30dp</dimen>
+    <dimen name="edtMeal">40dp</dimen>
+    <dimen name="txtSelectPercentage">25dp</dimen>
+    <dimen name="txtPercentage">60dp</dimen>
+    <dimen name="btnReset">28dp</dimen>
+    <dimen name="txtResult">50dp</dimen>
+</resources>
