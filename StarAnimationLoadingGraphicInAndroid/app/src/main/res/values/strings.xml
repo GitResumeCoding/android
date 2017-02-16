@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Star Animation Loading</string>
+    <string name="btnClickOnScreenMessage">Click on Screen to Start</string>
+    <string name="starAnimationMessage">Simple\nStar\nAnimation</string>
+</resources>
