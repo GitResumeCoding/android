@@ -27,3 +27,5 @@ to add the url link
 git remote add orgin [URL LINK from github webpage]
 i.e. for android
 git remote add origin https://github.com/GitResumeCoding/android.git
+
+https://github.com/mendyz/android.git
